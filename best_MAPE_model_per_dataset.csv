@@ -1,0 +1,5 @@
+model;dataset;n_time_steps;MSE;RMSE;MAE;MAPE;sMAPE;Duration;Best Params
+LSTM;Canadian Lynx;5;67190,5330755303;259,211367566182;74,5;50,684799893656376;33,13;143,1646740436554;LSTM (88,88,88) n_time_steps=5 epochs=100
+MLP;IBM Stock prices;1;2,927887814011358;1,7111071895154195;1,0372895975331886;0,9521196656276404;0,48;45,17789959907532;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'}
+MLP;Sunspot Numbers;12;4459,499553219212;66,77948452346133;27,04575596342852;7,331885982797851;3,66;92,76598811149596;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (6, 18, 1), 'max_iter': 500, 'solver': 'adam'}
+MLP;TSLA Stock prices;1;70,62676696588599;8,40397328445813;6,360798205881338;3,212440989953324;1,61;55,0226309299469;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'}

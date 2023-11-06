@@ -1,0 +1,13 @@
+Dataset;Best Params;n_time_steps;MSE;RMSE;MAE;MAPE;sMAPE;Duration
+sunspot;{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (4, 6, 1), 'max_iter': 500, 'solver': 'adam'};1;362714.4474073092;602.2577914874238;512.3202850861192;95.03598814735584;91.4;85.21172618865967
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};2;6869.391492407489;82.88179228520272;33.470482597623004;9.152552958759049;4.61;51.81887125968933
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 18, 1), 'max_iter': 500, 'solver': 'adam'};3;7236.487782379757;85.06754835058877;35.50293874242925;9.41457200821746;4.71;54.673396587371826
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};4;7311.930832078392;85.50982886240851;38.605440734101165;9.548429614101705;4.84;49.415143966674805
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};5;7416.320731795619;86.11806274989945;38.91541938255551;9.618579170606644;4.85;51.05580711364746
+sunspot;{'activation': 'identity', 'alpha': 0.001, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};6;7168.265722146456;84.66561121344637;39.46094382092829;9.489607197430013;4.74;51.79815864562988
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};7;6539.927945429643;80.86982098057126;33.6805229705985;8.911269449642639;4.45;53.58827877044678
+sunspot;{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};8;7965.839428065274;89.25155140424884;35.27062909905999;9.91788307727851;4.75;66.59187293052673
+sunspot;{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};9;5281.444029814269;72.67354422218769;33.079369400799465;8.155473062303479;4.04;67.57135701179504
+sunspot;{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};10;4594.964530974601;67.78616769647478;29.679389642327806;7.624333783976677;3.83;68.30506825447083
+sunspot;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};11;5073.703418432242;71.22993344396892;31.09244887515979;8.144757729363015;4.15;81.36348795890808
+sunspot;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (6, 18, 1), 'max_iter': 500, 'solver': 'adam'};12;4459.499553219212;66.77948452346133;27.04575596342852;7.331885982797851;3.66;92.76598811149597

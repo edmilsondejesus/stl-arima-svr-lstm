@@ -1,0 +1,13 @@
+Dataset;Best Params;n_time_steps;MSE;RMSE;MAE;MAPE;sMAPE;Duration
+TSLA;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};1;70.62676696588599;8.40397328445813;6.360798205881338;3.2124409899533237;1.61;55.0226309299469
+TSLA;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};2;73.8488638562222;8.59353616715623;6.195806556652585;3.2752170268097602;1.64;42.44075965881348
+TSLA;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};3;91.1721293755143;9.54840978255093;6.787225705970343;3.6319191493330765;1.81;64.05719256401062
+TSLA;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};4;125.69843066831152;11.211531147363928;8.005687496930989;4.290573282907041;2.14;23.438716650009155
+TSLA;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (6, 18, 1), 'max_iter': 500, 'solver': 'adam'};5;114.71062308710808;10.71030452821525;7.831660576277898;4.0525477774314815;2.02;25.76492977142334
+TSLA;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};6;91.998647357534;9.591592535003455;6.920095645974328;3.6526760852754463;1.82;37.683764696121216
+TSLA;{'activation': 'identity', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};7;106.86243738736658;10.337428954404794;7.315692793696016;3.891080244555771;1.92;32.792667865753174
+TSLA;{'activation': 'relu', 'alpha': 0.01, 'hidden_layer_sizes': (4, 6, 1), 'max_iter': 500, 'solver': 'adam'};8;138.04943134550666;11.749443873882145;8.422089561288288;4.515990741971374;2.24;40.184664249420166
+TSLA;{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (6, 12, 1), 'max_iter': 500, 'solver': 'adam'};9;98.66746532788477;9.93314981905965;6.708604787729172;3.773426955478344;1.89;39.355032205581665
+TSLA;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (6, 18, 1), 'max_iter': 500, 'solver': 'adam'};10;124.65218874420515;11.164774460068827;8.027501878957509;4.245953693169426;2.13;57.47376227378845
+TSLA;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (2, 6, 1), 'max_iter': 500, 'solver': 'adam'};11;129.87808903284647;11.396406847460584;7.878386340657485;4.277507434821364;2.13;51.183390378952026
+TSLA;{'activation': 'identity', 'alpha': 0.01, 'hidden_layer_sizes': (4, 6, 1), 'max_iter': 500, 'solver': 'adam'};12;151.90902500920987;12.32513793063631;8.218863029269457;4.621114218426463;2.3;48.291144609451294
