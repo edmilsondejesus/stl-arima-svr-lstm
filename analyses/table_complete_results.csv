@@ -1,0 +1,196 @@
+Dataset;Model;n_time_steps;MSE;RMSE;MAE;MAPE (%);sMAPE (%);Duration (s)
+Canadian Lynx;SVR;3;726960,0;852,6;356,2;111,9;25,3;1,6
+Canadian Lynx;SVR;12;655930,9;809,9;582,2;144,7;26,5;0,8
+Canadian Lynx;SVR;4;637867,3;798,7;490,2;171,9;27,4;1,9
+Canadian Lynx;SVR;2;764210,9;874,2;448,9;160,4;27,9;1,0
+Canadian Lynx;SVR;17;712667,7;844,2;486,8;98,4;30,0;0,8
+Canadian Lynx;SVR;11;603128,3;776,6;416,0;136,3;30,3;0,9
+Canadian Lynx;SVR;1;1111000,7;1054,0;617,8;101,0;30,5;0,6
+Canadian Lynx;MLP;5;998953,3;999,5;804,8;169,8;30,6;12,1
+Canadian Lynx;SVR;13;560756,5;748,8;486,0;141,1;31,1;0,7
+Canadian Lynx;SVR;7;712802,0;844,3;505,7;181,7;31,6;1,1
+Canadian Lynx;SVR;8;617076,8;785,5;480,1;114,8;32,7;1,0
+Canadian Lynx;SVR;22;904374,0;951,0;344,8;95,2;33,3;0,8
+Canadian Lynx;ARIMA;1;1133072,3;1064,5;768,3;168,4;33,6;24,5
+Canadian Lynx;SVR;14;858752,1;926,7;576,2;129,9;33,7;0,7
+Canadian Lynx;SVR;9;843910,7;918,6;429,3;236,0;34,6;1,1
+Canadian Lynx;MLP;7;1287403,4;1134,6;1001,2;256,7;35,5;19,9
+Canadian Lynx;SVR;21;1745608,1;1321,2;582,6;144,7;39,3;0,8
+Canadian Lynx;SVR;20;1762932,0;1327,8;575,2;144,0;39,4;0,8
+Canadian Lynx;SVR;19;1819150,7;1348,8;557,5;141,7;40,0;0,8
+Canadian Lynx;SVR;18;1825215,5;1351,0;556,3;144,5;40,3;1,0
+Canadian Lynx;SVR;15;1919990,6;1385,6;584,3;143,0;40,8;0,7
+Canadian Lynx;SVR;16;1947054,6;1395,4;543,3;137,7;40,8;0,7
+Canadian Lynx;SVR;23;633875,8;796,2;529,7;114,4;42,0;0,8
+Canadian Lynx;ARIMA;2;1649468,8;1284,3;1141,7;326,5;42,1;4,4
+Canadian Lynx;LSTM;0;1814454,1;1347,0;1214,0;312,8;42,2;82,7
+Canadian Lynx;MLP;6;1879639,5;1371,0;1247,5;351,6;42,4;14,0
+Canadian Lynx;SVR;24;902368,8;949,9;712,2;131,6;43,0;0,8
+Canadian Lynx;SVR;10;2245707,3;1498,6;567,2;144,3;43,7;1,0
+Canadian Lynx;SVR;6;2613572,3;1616,7;682,1;145,5;45,4;1,1
+Canadian Lynx;SVR;5;1386511,3;1177,5;852,9;206,0;45,7;1,6
+Canadian Lynx;MLP;3;2593626,9;1610,5;728,5;168,2;46,4;14,1
+Canadian Lynx;SVR;0;2751586,3;1658,8;805,1;153,8;47,3;14,0
+Canadian Lynx;MLP;2;3216708,8;1793,5;843,2;117,2;51,0;9,3
+Canadian Lynx;MLP;4;3243213,9;1800,9;854,2;115,6;51,4;11,7
+Canadian Lynx;MLP;1;3451189,3;1857,7;1108,4;108,0;54,1;10,7
+Canadian Lynx;MLP;0;3478460,1;1865,1;1118,8;106,7;54,5;25,7
+Canadian Lynx;ARIMA;0;4635415,5;2153,0;1334,5;100,0;100,0;0,1
+IBM Stock prices;SVR;1;2,4;1,5;0,9;1,0;0,5;1,6
+IBM Stock prices;SVR;2;2,3;1,5;0,9;1,0;0,5;1,6
+IBM Stock prices;SVR;5;2,3;1,5;0,9;1,0;0,5;1,5
+IBM Stock prices;SVR;6;2,4;1,5;0,9;1,0;0,5;1,6
+IBM Stock prices;SVR;7;2,4;1,5;1,0;1,0;0,5;1,7
+IBM Stock prices;SVR;8;2,6;1,6;0,9;1,0;0,5;2,6
+IBM Stock prices;SVR;12;2,7;1,7;1,0;1,1;0,5;3,3
+IBM Stock prices;SVR;9;3,2;1,8;1,1;1,1;0,6;3,7
+IBM Stock prices;SVR;10;3,4;1,8;1,1;1,2;0,6;7,4
+IBM Stock prices;SVR;15;3,1;1,8;1,1;1,1;0,6;4,3
+IBM Stock prices;SVR;14;4,6;2,2;1,4;1,4;0,7;3,2
+IBM Stock prices;SVR;3;7,2;2,7;1,5;1,7;0,8;1,4
+IBM Stock prices;SVR;4;10,7;3,3;2,2;2,1;1,0;1,3
+IBM Stock prices;SVR;11;6,8;2,6;2,2;1,9;1,0;4,4
+IBM Stock prices;SVR;13;14,0;3,7;3,4;2,8;1,4;3,2
+IBM Stock prices;STL-ASL;1;49,4;7,0;4,8;4,7;2,4;163,8
+IBM Stock prices;STL-ASL;8;60,5;7,8;4,8;5,1;2,6;234,8
+IBM Stock prices;STL-ASL;9;60,6;7,8;4,8;5,1;2,6;215,6
+IBM Stock prices;STL-ASL;12;60,3;7,8;5,1;5,1;2,6;265,1
+IBM Stock prices;STL-ASL;14;60,7;7,8;5,1;5,1;2,6;297,0
+IBM Stock prices;STL-ASL;0;68,2;8,3;4,8;5,2;2,7;87,3
+IBM Stock prices;STL-ASL;13;63,3;8,0;5,1;5,2;2,7;281,3
+IBM Stock prices;STL-ASL;11;85,8;9,3;5,6;5,9;3,1;260,8
+IBM Stock prices;STL-ASL;4;95,8;9,8;6,2;6,1;3,2;215,1
+IBM Stock prices;ARIMA;2;325,6;18,0;14,5;12,7;6,9;37,8
+IBM Stock prices;ARIMA;2;325,6;18,0;14,5;12,7;6,9;44,6
+IBM Stock prices;ARIMA;1;437,5;20,9;19,0;15,9;8,7;15,6
+IBM Stock prices;ARIMA;15;436,9;20,9;18,8;15,8;8,7;176,0
+IBM Stock prices;ARIMA;16;437,2;20,9;18,8;15,8;8,7;274,1
+IBM Stock prices;ARIMA;17;437,0;20,9;18,9;15,8;8,7;96,8
+IBM Stock prices;ARIMA;18;437,8;20,9;18,9;15,8;8,7;61,1
+IBM Stock prices;ARIMA;22;440,6;21,0;18,9;15,9;8,7;710,0
+IBM Stock prices;ARIMA;23;441,1;21,0;18,7;15,9;8,7;231,2
+IBM Stock prices;ARIMA;24;441,6;21,0;18,6;15,9;8,7;115,3
+IBM Stock prices;ARIMA;1;437,5;20,9;19,0;15,9;8,7;15,1
+IBM Stock prices;ARIMA;3;439,0;21,0;19,0;15,9;8,8;24,9
+IBM Stock prices;ARIMA;4;440,1;21,0;19,1;16,0;8,8;33,6
+IBM Stock prices;ARIMA;5;441,3;21,0;19,1;16,0;8,8;42,3
+IBM Stock prices;ARIMA;6;442,3;21,0;19,2;16,0;8,8;39,0
+IBM Stock prices;ARIMA;7;443,2;21,1;19,2;16,0;8,8;37,0
+IBM Stock prices;ARIMA;8;444,0;21,1;19,3;16,0;8,8;30,4
+IBM Stock prices;ARIMA;9;444,5;21,1;19,3;16,0;8,8;45,3
+IBM Stock prices;ARIMA;10;445,0;21,1;19,3;16,0;8,8;50,7
+IBM Stock prices;ARIMA;11;445,3;21,1;19,3;16,0;8,8;60,6
+IBM Stock prices;ARIMA;12;445,6;21,1;19,3;16,0;8,8;56,3
+IBM Stock prices;ARIMA;13;445,8;21,1;19,3;16,0;8,8;69,4
+IBM Stock prices;ARIMA;14;445,8;21,1;19,2;16,0;8,8;73,1
+IBM Stock prices;ARIMA;19;448,3;21,2;19,2;16,1;8,8;90,7
+IBM Stock prices;ARIMA;20;449,2;21,2;19,3;16,1;8,8;247,1
+IBM Stock prices;ARIMA;21;450,0;21,2;19,3;16,1;8,8;199,1
+IBM Stock prices;ARIMA;3;439,0;21,0;19,0;15,9;8,8;23,4
+IBM Stock prices;ARIMA;4;440,1;21,0;19,1;16,0;8,8;29,0
+IBM Stock prices;ARIMA;5;441,3;21,0;19,1;16,0;8,8;34,7
+IBM Stock prices;ARIMA;6;442,3;21,0;19,2;16,0;8,8;28,5
+IBM Stock prices;ARIMA;7;443,2;21,1;19,2;16,0;8,8;36,7
+IBM Stock prices;ARIMA;8;444,0;21,1;19,3;16,0;8,8;41,9
+IBM Stock prices;ARIMA;9;444,5;21,1;19,3;16,0;8,8;44,6
+IBM Stock prices;ARIMA;10;445,0;21,1;19,3;16,0;8,8;65,0
+IBM Stock prices;ARIMA;11;445,3;21,1;19,3;16,0;8,8;61,9
+IBM Stock prices;ARIMA;12;445,6;21,1;19,3;16,0;8,8;60,1
+IBM Stock prices;ARIMA;13;445,8;21,1;19,3;16,0;8,8;63,7
+IBM Stock prices;ARIMA;14;445,8;21,1;19,2;16,0;8,8;62,3
+IBM Stock prices;ARIMA;15;445,9;21,1;19,2;16,0;8,8;62,6
+IBM Stock prices;LSTM;0;451,6;21,3;19,3;16,2;8,9;103,2
+IBM Stock prices;LSTM;0;452,4;21,3;19,3;16,2;8,9;94,8
+IBM Stock prices;LSTM;0;452,1;21,3;19,3;16,2;8,9;224,3
+IBM Stock prices;LSTM;0;451,7;21,3;19,3;16,2;8,9;104,8
+IBM Stock prices;LSTM;0;452,4;21,3;19,3;16,2;8,9;335,0
+IBM Stock prices;LSTM;0;455,1;21,3;19,4;16,3;9,0;352,0
+IBM Stock prices;LSTM;0;454,9;21,3;19,4;16,3;9,0;397,6
+IBM Stock prices;LSTM;0;454,9;21,3;19,4;16,3;9,0;115,5
+IBM Stock prices;LSTM;0;455,1;21,3;19,4;16,3;9,0;71,5
+IBM Stock prices;LSTM;0;454,7;21,3;19,4;16,3;9,0;116,7
+IBM Stock prices;LSTM;0;457,3;21,4;19,5;16,3;9,0;57,3
+IBM Stock prices;LSTM;0;457,3;21,4;19,5;16,3;9,0;55,8
+IBM Stock prices;LSTM;0;457,4;21,4;19,5;16,3;9,0;56,9
+IBM Stock prices;LSTM;0;457,4;21,4;19,5;16,3;9,0;70,6
+IBM Stock prices;LSTM;0;457,3;21,4;19,5;16,3;9,0;69,1
+IBM Stock prices;SVR;0;468,5;21,6;19,7;16,6;9,1;10,3
+IBM Stock prices;ARIMA;0;14414,4;120,1;119,3;100,0;100,0;0,4
+Sunspot Numbers;MLP;1;6241,1;79,0;29,4;8,7;4,4;22,1
+Sunspot Numbers;SVR;1;7038,7;83,9;31,4;8,7;4,5;14,6
+Sunspot Numbers;MLP;15;6533,1;80,8;35,3;9,1;4,7;31,8
+Sunspot Numbers;MLP;24;7002,2;83,7;31,9;9,2;4,7;29,9
+Sunspot Numbers;SVR;8;7777,8;88,2;37,7;9,3;4,8;5,7
+Sunspot Numbers;MLP;19;7867,8;88,7;39,8;10,0;4,9;9,9
+Sunspot Numbers;SVR;7;8308,0;91,1;40,0;9,9;5,0;6,0
+Sunspot Numbers;SVR;5;8645,4;93,0;43,2;10,3;5,2;10,1
+Sunspot Numbers;SVR;6;10697,4;103,4;38,9;11,7;5,6;5,1
+Sunspot Numbers;MLP;11;9396,4;96,9;47,1;11,2;5,8;37,1
+Sunspot Numbers;MLP;14;11335,1;106,5;53,4;11,7;6,1;26,8
+Sunspot Numbers;SVR;11;18100,2;134,5;37,7;11,6;6,1;6,3
+Sunspot Numbers;MLP;4;12106,2;110,0;55,3;12,6;6,3;38,6
+Sunspot Numbers;MLP;5;12500,3;111,8;58,4;12,8;6,4;27,3
+Sunspot Numbers;MLP;3;13506,4;116,2;52,1;12,9;6,5;39,6
+Sunspot Numbers;MLP;12;13142,9;114,6;54,3;13,7;6,5;24,3
+Sunspot Numbers;MLP;8;13043,0;114,2;59,9;13,1;6,6;22,2
+Sunspot Numbers;MLP;10;12452,3;111,6;55,1;12,9;6,6;43,7
+Sunspot Numbers;SVR;2;17644,6;132,8;50,3;12,0;6,6;6,6
+Sunspot Numbers;MLP;22;12705,3;112,7;60,1;13,1;6,7;32,3
+Sunspot Numbers;MLP;17;13534,5;116,3;61,0;13,3;6,8;27,4
+Sunspot Numbers;MLP;7;14661,6;121,1;62,8;13,9;6,9;7,5
+Sunspot Numbers;MLP;16;14329,8;119,7;51,6;13,2;7,1;36,9
+Sunspot Numbers;MLP;6;15607,7;124,9;66,8;14,4;7,2;4,6
+Sunspot Numbers;MLP;9;18283,4;135,2;64,2;14,4;7,8;20,3
+Sunspot Numbers;MLP;23;25121,6;158,5;88,9;18,6;9,0;26,3
+Sunspot Numbers;SVR;4;41482,4;203,7;67,4;16,3;9,5;11,5
+Sunspot Numbers;SVR;9;71020,3;266,5;99,8;21,5;13,3;5,8
+Sunspot Numbers;SVR;16;81935,0;286,2;94,0;21,6;13,6;3,8
+Sunspot Numbers;SVR;13;76847,7;277,2;101,5;22,0;13,8;5,5
+Sunspot Numbers;MLP;13;81497,6;285,5;222,3;37,2;14,7;27,4
+Sunspot Numbers;SVR;15;85120,7;291,8;115,6;24,3;15,3;6,0
+Sunspot Numbers;SVR;3;79581,1;282,1;138,3;27,3;17,0;8,1
+Sunspot Numbers;SVR;14;131341,4;362,4;173,1;32,6;22,1;5,5
+Sunspot Numbers;SVR;12;144605,2;380,3;187,1;35,5;24,5;6,3
+Sunspot Numbers;SVR;10;142505,7;377,5;206,4;37,4;25,7;6,1
+Sunspot Numbers;SVR;17;204430,0;452,1;309,8;51,8;39,0;3,9
+Sunspot Numbers;MLP;21;323774,0;569,0;469,2;72,1;66,1;8,8
+Sunspot Numbers;MLP;2;332631,5;576,7;481,0;73,0;68,3;35,0
+Sunspot Numbers;MLP;20;336820,6;580,4;483,3;73,7;69,2;12,2
+Sunspot Numbers;SVR;0;339193,1;582,4;488,0;74,0;70,0;47,8
+Sunspot Numbers;MLP;18;341060,1;584,0;487,8;74,4;70,4;26,2
+Sunspot Numbers;MLP;0;349153,0;590,9;498,4;82,9;77,3;42,6
+Sunspot Numbers;ARIMA;0;11867,7;108,9;69,8;;;0,8
+TSLA Stock prices;SVR;1;72,2;8,5;6,6;3,3;1,6;1,2
+TSLA Stock prices;SVR;2;70,5;8,4;6,4;3,2;1,6;1,3
+TSLA Stock prices;SVR;3;73,0;8,5;6,3;3,3;1,6;1,3
+TSLA Stock prices;SVR;4;71,7;8,5;6,2;3,3;1,6;1,2
+TSLA Stock prices;SVR;7;71,2;8,4;6,1;3,2;1,6;1,3
+TSLA Stock prices;SVR;8;73,2;8,6;6,3;3,3;1,6;1,1
+TSLA Stock prices;SVR;11;73,7;8,6;6,3;3,3;1,6;1,5
+TSLA Stock prices;SVR;14;71,4;8,5;6,3;3,2;1,6;1,7
+TSLA Stock prices;SVR;18;72,0;8,5;6,3;3,2;1,6;1,6
+TSLA Stock prices;SVR;23;73,3;8,6;6,4;3,3;1,6;1,6
+TSLA Stock prices;SVR;6;82,7;9,1;6,2;3,4;1,7;1,4
+TSLA Stock prices;SVR;10;76,3;8,7;6,2;3,4;1,7;1,5
+TSLA Stock prices;SVR;16;80,6;9,0;6,1;3,4;1,7;1,6
+TSLA Stock prices;SVR;17;75,9;8,7;6,4;3,3;1,7;1,7
+TSLA Stock prices;SVR;19;75,0;8,7;6,0;3,3;1,7;1,6
+TSLA Stock prices;SVR;20;75,8;8,7;6,2;3,4;1,7;1,6
+TSLA Stock prices;SVR;21;84,2;9,2;6,2;3,5;1,7;1,6
+TSLA Stock prices;SVR;22;79,9;8,9;6,3;3,4;1,7;1,7
+TSLA Stock prices;SVR;24;78,7;8,9;6,5;3,4;1,7;2,4
+TSLA Stock prices;MLP;2;95,0;9,7;6,9;3,7;1,8;17,5
+TSLA Stock prices;SVR;9;96,8;9,8;6,8;3,7;1,9;1,6
+TSLA Stock prices;MLP;3;106,9;10,3;7,4;3,9;2,0;15,3
+TSLA Stock prices;SVR;5;116,3;10,8;7,1;3,9;2,0;1,6
+TSLA Stock prices;SVR;13;123,7;11,1;7,1;3,9;2,0;1,5
+TSLA Stock prices;SVR;15;131,3;11,5;7,4;4,1;2,1;2,2
+TSLA Stock prices;MLP;4;136,2;11,7;8,3;4,5;2,2;12,4
+TSLA Stock prices;MLP;5;152,0;12,3;8,9;4,8;2,4;15,4
+TSLA Stock prices;SVR;12;172,8;13,1;8,7;4,6;2,4;1,8
+TSLA Stock prices;MLP;1;222,6;14,9;10,5;5,3;2,7;20,0
+TSLA Stock prices;MLP;6;203,4;14,3;10,3;5,5;2,7;12,4
+TSLA Stock prices;MLP;7;217,5;14,7;10,9;5,8;2,9;15,0
+TSLA Stock prices;ARIMA;0;3583,7;59,9;42,3;27,1;10,9;0,4
+TSLA Stock prices;MLP;0;17356,0;131,7;124,9;52,8;36,7;16,6
+TSLA Stock prices;SVR;0;37491,7;193,6;189,9;83,9;72,5;1,0
