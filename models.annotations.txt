@@ -1,0 +1,19 @@
+Componente	Comportamento Ideal	Seu Código
+Trend	Baixa frequência, precisa de poucos lags (1-3)	Usa n_time_steps variando até 24
+Seasonal	Ciclo fixo (period=12), precisa de lags específicos (12,24)	Usa qualquer n_time_steps
+Residual	Alta frequência, pode precisar de mais lags	Usa max(n_time_steps,1)
+
+
+Parâmetro	Valores Testados	Porquê
+C	1255, 12550, 125550, 1255550	Controla o trade-off entre margem e erro
+gamma	1e-4 a 1e-8	Controla a influência de cada ponto de treino
+epsilon	0.1 a 0.0001	Define a largura da faixa de insensibilidade
+
+Substituir Grid Search por Otimização Bayesiana: O GridSearchCV que você usa pode ser ineficiente para 
+espaços de busca grandes ou contínuos. A Otimização Bayesiana (por exemplo, com a biblioteca scikit-optimize ou optuna) 
+é mais eficiente, pois usa resultados de testes anteriores para escolher os próximos hiperparâmetros a serem testados .
+ Isso pode encontrar configurações melhores em menos tempo. 
+Você poderia aplicá-la para otimizar os parâmetros do SVR e também a arquitetura do LSTM 
+(número de camadas, neurônios, learning rate, etc.) 
+
+vamos implementar o stepwise=False
