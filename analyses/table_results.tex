@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Best forecasting results per dataset}
+\label{tab:best_results}
+\begin{tabular}{lccccccccc}
+\hline
+Dataset & Model & Steps & MSE & RMSE & MAE & MAPE (\%) & sMAPE (\%) & Time (s) \\
+\hline
+Canadian Lynx & LSTM & 9 & 249975.78 & 499.98 & 263.97 & 28.08 & 14.08 & 16.31 \\
+IBM Stock prices & MLP & 1 & 10.02 & 3.17 & 1.10 & 1.11 & 0.56 & 4.71 \\
+STLASL & STL-ASL & 19 & 304758.15 & 552.05 & 440.43 & 73.95 & 65.11 & 539.12 \\
+Sunspot Numbers & MLP & 1 & 6241.15 & 79.00 & 29.39 & 8.66 & 4.43 & 3.02 \\
+TSLA Stock prices & MLP & 1 & 108.82 & 10.43 & 5.56 & 2.61 & 1.31 & 3.13 \\
+TSLA Stock prices & SVR & 1 & 108.54 & 10.42 & 5.37 & 2.61 & 1.31 & 1.65 \\
+\hline
+\end{tabular}
+\end{table}

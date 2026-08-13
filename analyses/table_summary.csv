@@ -1,0 +1,20 @@
+Dataset;Model;Best n_time_steps;Best sMAPE (%);Best MAPE (%);MSE;RMSE;MAE;Duration (s)
+Canadian Lynx;LSTM;9;14,1;28,1;249975,8;500,0;264,0;16,3
+Canadian Lynx;SVR;5;25,1;117,7;572646,4;756,7;483,7;0,1
+Canadian Lynx;ARIMA;15;28,4;82,0;983087,8;991,5;864,4;45,0
+Canadian Lynx;MLP;5;30,6;169,8;998953,3;999,5;804,8;1,1
+IBM Stock prices;MLP;1;0,6;1,1;10,0;3,2;1,1;4,7
+IBM Stock prices;SVR;5;0,6;1,1;10,5;3,2;1,1;11,5
+IBM Stock prices;LSTM;12;1,4;2,8;164,6;12,8;1,5;364,8
+IBM Stock prices;ARIMA;2;6,9;12,7;325,6;18,0;14,5;44,6
+IBM Stock prices;STL-ASL;20;12,7;27,0;2613,5;51,1;36,6;882,6
+STLASL;STL-ASL;19;65,1;73,9;304758,2;552,0;440,4;539,1
+Sunspot Numbers;MLP;1;4,4;8,7;6241,1;79,0;29,4;3,0
+Sunspot Numbers;SVR;1;4,5;8,7;6877,4;82,9;30,3;6,0
+Sunspot Numbers;LSTM;12;16,6;inf;518,3;22,8;12,3;60,3
+Sunspot Numbers;ARIMA;4;38,5;inf;4608,4;67,9;54,1;96,5
+TSLA Stock prices;MLP;1;1,3;2,6;108,8;10,4;5,6;3,1
+TSLA Stock prices;SVR;1;1,3;2,6;108,5;10,4;5,4;1,6
+TSLA Stock prices;LSTM;9;1,6;3,3;130,0;11,4;7,3;152,6
+TSLA Stock prices;STL-ASL;21;15,5;25,8;12924,7;113,7;60,2;335,1
+TSLA Stock prices;ARIMA;12;15,7;26,2;13317,2;115,4;62,9;100,2
